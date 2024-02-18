@@ -1,0 +1,246 @@
+body{
+  background-color: black;
+  font-family:Helvetica;
+}
+
+/**Navigation bar**/
+nav{
+  display:flex;
+  color:white;
+
+  align-items: center;
+  text-align: center;
+  font-size:25px;
+
+  padding:5px;
+  margin-bottom:5px;
+
+}
+
+#home{
+  flex:2px;
+  padding:5px;
+
+  text-decoration: none;
+  color:white;
+}
+
+#home:hover{
+  background-color:#383838;
+}
+
+#history{
+  flex:2px;
+  padding:5px;
+
+  text-decoration: none;
+  color:white;
+
+}
+
+#history:hover{
+  background-color:#383838;
+}
+
+#tradition{
+  flex:2px;
+  padding:5px;
+
+  text-decoration: none;
+  color:white;
+
+}
+
+#tradition:hover{
+  background-color:#383838;
+}
+
+#food{
+  flex:2px;
+  padding:5px;
+
+
+  text-decoration: none;
+  color:white;
+
+}
+
+#food:hover{
+  background-color:#383838;
+}
+
+/** Image title/header **/
+.title{
+  position:relative;
+  text-align: center;
+  color:white;
+}
+
+.title:hover{
+  letter-spacing: 8px;
+  transition:.5s;
+
+}
+
+.title:not(:hover){
+  letter-spacing: 0px;
+  transition:1s;
+
+}
+
+#china{
+  text-shadow: 2px 2px 10px #0f0f0f;
+
+  font-size: 80px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#homeimg{
+  display:block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+
+}
+
+/**Box 1**/
+.BOX1{
+  position: relative;
+  color:white;
+  display:flex;
+
+  background-color: #6672cc;
+  padding:5px;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+#civi{
+  display:inline;
+  width:30%;
+  height:auto;
+  filter:blur(2px);
+}
+
+#civi:hover{
+  filter:none;
+  transition:.5s;
+}
+
+#civi:not(:hover){
+  filter:blur(2px);
+  transition:.5s;
+}
+
+#historyTitle{
+  font-size:40px;
+  position: absolute;
+  display:inline;
+
+  top: 0%;
+  left: 30%;
+  padding:10px;
+}  
+
+#historyInfo {
+  font-size:35px;
+  display:inline;
+
+  padding:10px;
+}
+
+/** Historical Landmarks **/
+#historicalTitle{
+  text-align: center;
+  color:white;
+}
+
+/** INFO **/
+.landmarks{
+  background: #6672cc;
+  color:white;
+  padding:15px;
+  
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(501px, 1fr));
+}
+
+.landmark-wrapper{
+  position:relative;
+  overflow:hidden;
+}
+
+.landmark-wrapper img{
+  display:block;
+  width:100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+}
+
+.landmark-wrapper .content{
+  
+  position: absolute;
+  inset:0;
+  
+  font-size: 3rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  backdrop-filter: blur(10px);
+  padding:1rem;
+}
+
+.landmark-wrapper img,
+.landmark-wrapper .content{
+  transition:200ms ease-in-out;
+}
+
+.landmark-wrapper:hover .content{
+  opacity:1;
+}
+
+.landmark-wrapper:not(:hover) .content{
+  opacity:0;
+}
+
+/**Footer**/
+
+.footer{
+  background-color:#064a93;
+
+  padding:5px;
+
+  color:white;
+
+  border-style:double;
+  border-top: none;
+
+}
+
+.footer h1{
+  text-align: center;
+}
+
+.footer h3{
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+.footer a{
+  line-height: 35px;
+
+  margin-left:10px;
+  padding:8px;
+  
+  color:white;
+  font-size:20px;
+}

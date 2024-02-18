@@ -1,0 +1,241 @@
+body{
+  background-color: black;
+  font-family:Helvetica;
+}
+
+/** HOME PAGE**/
+
+/**Navigation bar**/
+nav{
+  display:flex;
+  color:white;
+  
+  align-items: center;
+  text-align: center;
+  font-size:25px;
+
+  padding:5px;
+  margin-bottom:5px;
+  
+}
+
+#home{
+  flex:2px;
+  padding:5px;
+
+  text-decoration: none;
+  color:white;
+}
+
+#home:hover{
+  background-color:#383838;
+}
+
+#history{
+  flex:2px;
+  padding:5px;
+
+  text-decoration: none;
+  color:white;
+
+}
+
+#history:hover{
+  background-color:#383838;
+}
+
+#tradition{
+  flex:2px;
+  padding:5px;
+
+  text-decoration: none;
+  color:white;
+  
+}
+
+#tradition:hover{
+  background-color:#383838;
+}
+
+#food{
+  flex:2px;
+  padding:5px;
+  
+
+  text-decoration: none;
+  color:white;
+
+}
+
+#food:hover{
+  background-color:#383838;
+}
+
+/** Image title/header **/
+.title{
+  position:relative;
+  text-align: center;
+  color:white;
+}
+ 
+.title:hover{
+  letter-spacing: 8px;
+  transition:.5s;
+  
+}
+
+.title:not(:hover){
+  letter-spacing: 0px;
+  transition:1s;
+
+}
+
+
+#china{
+  text-shadow: 2px 2px 10px #0f0f0f;
+  
+  font-size: 80px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#homeimg{
+  display:block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  
+}
+
+/** Where **/
+.BOX1{
+  position: relative;
+  color:white;
+  display:flex;
+
+  background-color: #6672cc;
+  padding:5px;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+#map{
+  display:inline;
+  width:30%;
+  height:auto;
+  filter:blur(2px);
+}
+
+#map:hover{
+  filter:none;
+  transition:.5s;
+}
+
+#map:not(:hover){
+  filter:blur(2px);
+  transition:.5s;
+}
+
+#where{
+  font-size:40px;
+  position: absolute;
+  display:inline;
+
+  top: 0%;
+  left: 30%;
+  padding:10px;
+}  
+
+#whereINFO {
+  font-size:35px;
+  display:inline;
+
+  padding:10px;
+}
+
+/** Population **/
+.BOX2{
+  position: relative;
+  color:white;
+  display:flex;
+
+  background-color: #6672cc;
+  padding:5px;
+  margin-top:5px;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+#people{
+  display:inline;
+  width:30%;
+  height:auto;
+  filter:blur(2px);
+}
+
+#people:hover{
+  filter:none;
+  transition:.5s;
+}
+
+#people:not(:hover){
+  filter:blur(2px);
+  transition:.5s;
+}
+
+#population{
+  font-size:40px;
+  position: absolute;
+  display:inline;
+
+  top: 0%;
+  left: 30%;
+  padding:10px;
+}  
+
+#populationINFO {
+  font-size:35px;
+  display:inline;
+
+  padding:10px;
+}
+
+/**Footer**/
+
+.footer{
+  background-color:#064a93;
+
+  padding:5px;
+  
+  color:white;
+
+  border-style:double;
+  border-top: none;
+  
+}
+
+.footer h1{
+  text-align: center;
+}
+
+.footer h3{
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+.footer a{
+  line-height: 35px;
+
+  margin-left:10px;
+  padding:8px;
+
+  color:white;
+  font-size:20px;
+}
+
